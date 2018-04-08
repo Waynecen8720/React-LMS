@@ -8,10 +8,10 @@ export default function LecturerListItem({ lecturer }) {
       <td>{lecturer.email}</td>
       <td>{lecturer.staffNumber}</td>
       <td style={{ textAlign: 'right' }}>
-        {/* <Link to={`/lecturers/${lecturer.id}`} className="ui teal tiny button">
+        <Link to={`/lecturers/${lecturer.id}`} className="ui teal tiny button">
           <i className="edit icon" />
           Details
-        </Link> */}
+        </Link>
       </td>
     </tr>
   );

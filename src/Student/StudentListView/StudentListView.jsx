@@ -118,7 +118,7 @@ export default class StudentListView extends React.Component {
         {!this.state.isLoading && (
           <div>
             <h1 className="ui header">Students</h1>
-            {/* <Link to="/students/create" className="ui teal button">Add student</Link> */}
+            <Link to="/students/create" className="ui teal button">Add student</Link>
             <div className="ui divider" />
             <table className="ui celled table">
               {renderHeader()}

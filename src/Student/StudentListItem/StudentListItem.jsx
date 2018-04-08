@@ -11,10 +11,10 @@ export default function StudentListItem({ student }) {
       <td>{moment(student.dateOfBirth).format('MMM DD YYYY')}</td>
       <td>{student.credit}</td>
       <td style={{ textAlign: 'right' }}>
-        {/* <Link to={`/students/${student.id}`} className="ui teal tiny button">
+        <Link to={`/students/${student.id}`} className="ui teal tiny button">
           <i className="edit icon" />
           Details
-        </Link> */}
+        </Link>
       </td>
     </tr>
   );
